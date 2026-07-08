@@ -1,0 +1,420 @@
+* {
+	font-family: 'avenir-next', sans-serif;
+   font-weight: 400;
+	color: #805c3c;
+}
+
+nav {
+	border-bottom: 1px solid #805c3c;
+	padding-top: 0;
+}
+
+nav .container {
+	position: relative;
+}
+
+nav .navbar-brand img {
+	height: 6rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+nav .navbar-nav .nav-link {
+	margin-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+nav .navbar-nav .nav-link.active {
+	font-weight: 700;
+	color: #805c3c;
+}
+
+#home {
+	margin-top: 4rem;
+}
+
+#about {
+	margin: 7rem 0;
+}
+
+#about .bungkus {
+	width: 80%;
+}
+
+#about .text p {
+	font-size: 1.2rem;
+}
+
+#retail {
+	margin-bottom: 7rem;
+}
+
+#retail.header {
+	margin-top: 7rem;
+}
+
+#retail h1 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+#retail h2 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+#retail .kategori-items {
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#retail .kategori-items .item-kategori {
+    cursor: pointer;
+    padding: .5rem 2rem;
+    margin-right: .5rem;
+	 border: 1px solid #805c3c;
+    border-color: #805c3c;
+    display: inline-block;
+    font-weight: 500;
+}
+
+#retail .kategori-items .item-kategori:hover, #retail .kategori-items .item-kategori.active {
+    background-color: #805c3c;
+	 color: #fff;
+}
+
+#retail .bungkus {
+	margin-bottom: 3rem;
+}
+
+#retail .bungkus img {
+	width: 100%;
+	aspect-ratio: 1/1;
+	margin-bottom: 1rem;
+	object-fit: contain;
+}
+
+#retail .bungkus span, #retail .bungkus h5 {
+	text-align: center;
+	display: block;
+}
+
+#retail .bungkus .kategori {
+	font-size: .7rem;
+}
+
+#retail .bungkus .nama-item {
+	font-weight: 700;
+	font-size: 1.3rem;
+	margin-bottom: 0;
+}
+
+#retail .bungkus .harga {
+	color: #000;
+	font-size: 1.5rem;
+}
+
+#retail .pagination {
+	display: flex;
+	justify-content: center;
+}
+
+#retail .pagination .isi .page {
+	font-size: 1.3rem;	
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+#retail .pagination .isi .page.selected {
+	font-weight: 700;
+}
+
+#kontak {
+	margin-bottom: 7rem;
+}
+
+#kontak .bungkus {
+	width: 100%;
+}
+
+#kontak h2 {
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+#kontak iframe {
+	width: 100%;
+	height: 20rem;
+}
+
+#kontak .garis {
+	border-right: 2px solid #805c3c;
+}
+
+#kontak .alamat {
+	margin-bottom: 2rem;
+}
+
+#kontak p a {
+	color: #805c3c;
+	text-decoration: none;
+}
+
+#kontak p a i {
+	font-size:1.3rem;
+	transform: translateY(2px);
+	margin-right: 4px;
+}
+
+#artikel {
+	margin-bottom: 7rem;
+}
+
+#artikel.base {
+	margin-top: 7rem;
+}
+
+#artikel .header {
+	margin-bottom: 3rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#artikel .header h2 {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+#artikel .header p {
+	margin-bottom: 0;
+}
+
+#artikel h1 {
+	font-weight: 700;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+#artikel a {
+	text-decoration: none;
+}
+
+#artikel .card {
+	cursor: pointer;
+	margin-bottom: 2rem;
+	trainsition: .3s;
+}
+
+#artikel .card:hover {
+	box-shadow: 0 0 20px -5px #805c3c;
+}
+
+#artikel .card .card-title {
+	min-height: 6rem;
+}
+
+#artikel .card img {
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+#artikel .tombol {
+	margin-top: 1rem;
+}
+
+#artikel .tombol .btn-primary {
+	background-color: #805c3c;
+	border-color: #805c3c;
+	padding: .5rem 2rem;
+}
+
+#artikel-detail {
+	margin: 7rem 0;
+}
+
+#artikel-detail .banner {
+	width: 100%;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+#artikel-detail .tanggal {
+	font-size: 1.3rem;
+}
+
+#artikel-detail .judul {
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+#artikel-detail .tombol {
+	margin-top: 3rem;
+}
+
+#artikel-detail .tombol .btn-primary {
+	background-color: #805c3c;
+	border-color: #805c3c;
+	padding: .5rem 2rem;
+}
+
+footer {
+	background-color: rgba(231, 240, 238, .5);
+	padding: 3rem 0;
+	overflow: hidden;
+}
+
+footer .container {
+	position: relative;
+}
+
+footer img {
+	width: 2rem;
+	position: relative;
+	z-index:2;
+}
+
+footer .logo-putih {
+	position: absolute;
+	top: 0;
+	left: -1rem;
+	transform: scale(2);
+}
+
+footer h2 {
+	font-size: 1.5rem;
+   font-weight: 600;
+   margin-bottom: 1rem;
+}
+
+footer p {
+	margin-bottom: .5rem;
+}
+
+footer p a {
+	color: #805c3c;
+	text-decoration: none;
+}
+
+footer p a i {
+	font-size:1.3rem;
+	transform: translateY(2px);
+	margin-right: 4px;
+}
+
+@media (max-width: 767.98px) {
+
+	nav .navbar-nav .nav-link {
+   	margin-right: 1rem;
+		text-align: right;
+	}
+
+	#about {
+    	margin: 3rem 0;
+	}
+
+	#about .bungkus img {
+		margin-bottom: 3rem;
+	}
+
+	#about .bungkus p {
+		text-align: justify;
+	}
+
+	#retail .kategori-items {
+    	text-align: left;
+	}
+
+	#retail .kategori-items .item-kategori {
+		margin-bottom: .5rem;
+		padding: .5rem 1rem;
+		font-size: .9rem;
+	}
+
+	#retail .bungkus {
+		width: 80%;
+		margin-bottom: 2rem;
+	}
+
+	#retail .bungkus .nama-item {
+		font-size: 1rem;
+	}
+
+	#retail .bungkus .harga {
+		font-size: 1.3rem;
+	}
+
+	#kontak {
+		margin-bottom: 0;
+	}
+
+	#kontak .bungkus {
+		width: 80%;
+		margin-bottom: 3rem;
+	}
+	
+	#kontak .alamat {
+		margin-bottom: 1rem;
+	}
+
+	#kontak iframe {
+   	height: 12rem;
+	}
+
+	#retail {
+		margin-bottom: 3rem;
+	}
+
+	#retail h2 {
+		margin-bottom: 1rem;
+	}
+
+	#artikel a {
+		width: 80%;
+	}
+
+	#artikel .header {
+		display: block;
+		text-align: center;
+	}
+
+	#artikel-detail .tanggal {
+		font-size: 1rem;
+	}
+
+	#artikel-detail .judul {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+	}
+
+	#artikel-detail .tombol {
+		margin-top: 2rem;
+	}
+
+	footer {
+		padding: 6rem 1rem 3rem;
+    	overflow: initial;
+	}
+
+	footer img {
+		position: absolute;
+	   top: -9rem;
+    	left: 1rem;
+	}
+
+	footer .logo-putih {
+		transform: scale(0);
+	}
+
+
+	footer h2 {
+		margin-top: 2rem;
+	}
+
+}

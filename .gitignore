@@ -1,0 +1,15 @@
+# Environment
+.env
+
+# CodeIgniter cache & logs
+src/application/logs/*
+!src/application/logs/index.html
+src/application/cache/*
+!src/application/cache/index.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker override (opsional)
+docker-compose.override.yml
